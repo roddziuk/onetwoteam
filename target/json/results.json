@@ -1,0 +1,602 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-03T08:00:46.486Z",
+        "line": 4,
+        "name": "basic auth - Login pass",
+        "description": "",
+        "id": "log-in;basic-auth---login-pass",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4811127000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on the page \"https://chewie.one2team.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://chewie.one2team.com/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iAmOnThePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 93720100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter \"userName\" \"etudiant3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userName\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"etudiant3\"",
+                  "offset": 19
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iEnter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90451400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter \"passWord\" \"Etudiant3*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"passWord\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Etudiant3*\"",
+                  "offset": 19
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iEnter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 93550700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"domainName\" \"telco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"domainName\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"telco\"",
+                  "offset": 21
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iEnter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26930100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on button Connexion",
+            "match": {
+              "location": "org.odindvateam.StepDef.clickOnButtonConnexion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7035200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "login is successful",
+            "match": {
+              "location": "org.odindvateam.StepDef.loginIsSuccessful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@onetwoteam"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T08:00:51.669Z",
+        "line": 22,
+        "name": "\u003cbasic auth - Login fails\u003e",
+        "description": "",
+        "id": "log-in;\u003cbasic-auth---login-fails\u003e;;2",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 5496196700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on the page \"https://chewie.one2team.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://chewie.one2team.com/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iAmOnThePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97735200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter \"userName\" \"aaaa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userName\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"aaaa\"",
+                  "offset": 19
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iEnter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105717200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter \"passWord\" \"Etudiant3*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"passWord\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Etudiant3*\"",
+                  "offset": 19
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iEnter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99733100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter \"domainName\" \"telco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"domainName\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"telco\"",
+                  "offset": 21
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iEnter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32914400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on button Connexion",
+            "match": {
+              "location": "org.odindvateam.StepDef.clickOnButtonConnexion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 608378200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Error message displayed",
+            "match": {
+              "location": "org.odindvateam.StepDef.errorMessageDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@onetwoteam"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T08:00:58.119Z",
+        "line": 23,
+        "name": "\u003cbasic auth - Login fails\u003e",
+        "description": "",
+        "id": "log-in;\u003cbasic-auth---login-fails\u003e;;3",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 9714539200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on the page \"https://chewie.one2team.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://chewie.one2team.com/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iAmOnThePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 92750700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter \"userName\" \"etudiant3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userName\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"etudiant3\"",
+                  "offset": 19
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iEnter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 83193000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter \"passWord\" \"az\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"passWord\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"az\"",
+                  "offset": 19
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iEnter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 103722700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter \"domainName\" \"telco\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"domainName\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"telco\"",
+                  "offset": 21
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iEnter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28922500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on button Connexion",
+            "match": {
+              "location": "org.odindvateam.StepDef.clickOnButtonConnexion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1198493100,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Error message displayed",
+            "match": {
+              "location": "org.odindvateam.StepDef.errorMessageDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@onetwoteam"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-07-03T08:01:09.351Z",
+        "line": 24,
+        "name": "\u003cbasic auth - Login fails\u003e",
+        "description": "",
+        "id": "log-in;\u003cbasic-auth---login-fails\u003e;;4",
+        "type": "scenario",
+        "keyword": "Scenario Template",
+        "steps": [
+          {
+            "result": {
+              "duration": 5469546400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on the page \"https://chewie.one2team.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://chewie.one2team.com/\"",
+                  "offset": 17
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iAmOnThePage(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 85768200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter \"userName\" \"etudiant3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"userName\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"etudiant3\"",
+                  "offset": 19
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iEnter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91752900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter \"passWord\" \"Etudiant3*\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"passWord\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"Etudiant3*\"",
+                  "offset": 19
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iEnter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90092000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I enter \"domainName\" \"telc\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"domainName\"",
+                  "offset": 8
+                },
+                {
+                  "val": "\"telc\"",
+                  "offset": 21
+                }
+              ],
+              "location": "org.odindvateam.StepDef.iEnter(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 23928900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on button Connexion",
+            "match": {
+              "location": "org.odindvateam.StepDef.clickOnButtonConnexion()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191489700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Error message displayed",
+            "match": {
+              "location": "org.odindvateam.StepDef.errorMessageDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@onetwoteam"
+          }
+        ]
+      }
+    ],
+    "name": "Log In",
+    "description": "",
+    "id": "log-in",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/org/odindvateam/odindvateam.feature",
+    "tags": [
+      {
+        "name": "@onetwoteam",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-03T08:01:15.314Z",
+        "line": 4,
+        "name": "Photo button is clickable",
+        "description": "",
+        "id": "home-page;photo-button-is-clickable",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 7728208200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is connected to the login page",
+            "match": {
+              "location": "org.odindvateam.HomeStepdefs.userIsConnectedToTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1113299700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the home page",
+            "match": {
+              "location": "org.odindvateam.HomeStepdefs.userIsOnTheHomePage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#root\u003ediv\u003esection\u003esection\u003ediv\u003eheader:nth-child(2)\"}\n  (Session info: chrome\u003d83.0.4103.116)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027LAPTOP-V2744RGA\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002710.0.2\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\\Users\\la-bo\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54442}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: d8cae725b45daf0b6ece31b365cc8751\n*** Element info: {Using\u003dcss selector, value\u003d#root\u003ediv\u003esection\u003esection\u003ediv\u003eheader:nth-child(2)}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:488)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)\r\n\tat org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.odindvateam.HomeStepdefs.userClicksOnThePhotoButton(HomeStepdefs.java:39)\r\n\tat ✽.User clicks on the Photo button(file:///D:/odindvateam/src/test/java/org/odindvateam/odindvateamhome.feature:7)\r\n",
+              "duration": 10062411600,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User clicks on the Photo button",
+            "match": {
+              "location": "org.odindvateam.HomeStepdefs.userClicksOnThePhotoButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "Photo options are displayed",
+            "match": {
+              "location": "org.odindvateam.HomeStepdefs.photoOptionsAreDisplayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@onetwoteam"
+          }
+        ]
+      }
+    ],
+    "name": "Home Page",
+    "description": "",
+    "id": "home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/org/odindvateam/odindvateamhome.feature",
+    "tags": [
+      {
+        "name": "@onetwoteam",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
