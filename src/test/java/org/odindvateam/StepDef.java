@@ -13,12 +13,13 @@ import static java.util.concurrent.TimeUnit.SECONDS;
 import static org.junit.Assert.assertTrue;
 
 public class StepDef {
+
     public static WebDriver driver;
     static String base_url = "https://chewie.one2team.com/";
 
    @Given("I am on the page {string}")
     public static void iAmOnThePage(String arg0) {
-        System.setProperty("webdriver.chrome.driver", "src/test/java/org/odindvateam/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "src/test/java/org/odindvateam/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, SECONDS);
         driver.get(base_url);
